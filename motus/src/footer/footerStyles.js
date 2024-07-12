@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Box = styled.div`
     padding: 2%;
     background: #e52c7e;
-    display: grid;
     gap: 1em;
 `;
 

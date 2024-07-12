@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-SubscriptionBlock,
+    SubscriptionBlock,
     Subscribe,
     Flashed,
     Newbie,
@@ -12,6 +12,7 @@ SubscriptionBlock,
     CategoryTranslate
 } from "./subscriptionStyles";
 import {positions} from "@mui/system";
+
 const Subscription = () => {
     return (
         <SubscriptionBlock>
@@ -34,10 +35,10 @@ const Subscription = () => {
                     Flashed
                 </CategoryLabel>
                 <CategoryTranslate>
-     -прошаренный
+                    -прошаренный
                 </CategoryTranslate>
                 <CategoryPrice>
-200 ₽/мес.
+                    200 ₽/мес.
                 </CategoryPrice>
             </Flashed>
             <NewbieInfo>
@@ -56,4 +57,4 @@ const Subscription = () => {
         </SubscriptionBlock>
     );
 };
-    export default Subscription;
+export default Subscription;
