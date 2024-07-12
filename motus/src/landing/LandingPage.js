@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from "../header/Header";
+import {Container, HeaderContainer, FooterContainer, Subsription} from "./landingPageStyles";
 import {
     Container,
     HeaderContainer,
@@ -11,6 +12,7 @@ import {
     TextBlock2, Pink2, TextBlock3, Pink3, Pic1
 } from "./landingPageStyles";
 import Footer from "../footer/Footer";
+import Subscription from "../subscription/Subscription";
 import BackgroundSVG from '../pictures/1 (1).svg';
 import {LogoPic} from "../footer/footerStyles";
 
@@ -51,7 +53,9 @@ const LandingPage = () => {
             <HeaderContainer>
                 <Header/>
             </HeaderContainer>
-
+            <Subsription>
+                <Subscription/>
+            </Subsription>
             <FooterContainer>
                 <Footer/>
             </FooterContainer>

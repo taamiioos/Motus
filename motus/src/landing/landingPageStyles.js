@@ -1,4 +1,4 @@
-import {styled} from '@mui/system';
+import { styled } from '@mui/system';
 
 export const Container = styled('div')`
     display: grid;
@@ -20,7 +20,7 @@ export const HeaderContainer = styled('div')`
 `;
 
 export const FooterContainer = styled('div')`
-    grid-column: 1/6;
+grid-column: 1/6;
     text-align: center;
     left: 0;
     right: 0;
@@ -104,3 +104,7 @@ export const Pink3 = styled('div')`
     text-align: left;
     margin-bottom: 10px;
 `;
+export const Subsription =styled('div')`
+grid-column: 1/6;
+    padding: 20px;
+`
