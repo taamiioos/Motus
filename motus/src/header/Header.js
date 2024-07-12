@@ -15,7 +15,6 @@ const navLinks = [
 ];
 
 const Header = () => {
-
     const [activePath, setActivePath] = useState(navLinks[0].path);
 
     const handleNavClick = (path) => {
