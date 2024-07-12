@@ -1,39 +1,36 @@
-import { styled } from '@mui/system';
+import styled from "styled-components";
 
 
-export const HeaderWrapper = styled("header")`
-    margin-top: 10px;
-    padding: 25px 20px 30px 19px;
-    grid-column: 4 / 6; 
-`;
-
-export const HeaderRow = styled('div')`
+export const HeaderWrapper = styled.header`
+    grid-column: span 2;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-`;
+    justify-content: flex-end;
+    margin: 0`;
 
-export const HeaderNavList = styled('ul')`
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    column-gap: 20px;
-    align-items: center;
-    list-style-type: none;
+export const HeaderRow = styled.div`
+    white-space: nowrap;
+    width: 100%;
     margin: 0;
-    padding: 0;
+
 `;
 
-export const HeaderNavListItem = styled('li')`
-    text-align: center;
+export const HeaderNavList = styled.ul`
+    display: flex;
+    padding: 25px 19px 30px 18px;
+    list-style-type: none;
+    gap: 3em;
+    font-size: 20px;
+    margin: 0;
+
 `;
 
-export const HeaderNavLink = styled('div')`
-  font-family: serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 148.6%;
-  color: #B3D420;
-  cursor: pointer;
-  &:hover { color: #F02D84; }
-  &.selected { color: #F02D84; }
+export const HeaderNavListItem = styled.li`
+`;
+
+export const HeaderNavLink = styled.div`
+    font-family: serif;
+    color: #B3D420;
+    cursor: pointer;
+    &:hover { color: #F02D84; }
+    &.selected { color: #F02D84; }
 `;
