@@ -21,3 +21,7 @@ grid-column: 1/6;
     //z-index: 2;
     
 `
+export const Subsription =styled('div')`
+grid-column: 1/6;
+    padding: 20px;
+`

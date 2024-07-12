@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from "../header/Header";
-import { Container, HeaderContainer, FooterContainer } from "./landingPageStyles";
+import {Container, HeaderContainer, FooterContainer, Subsription} from "./landingPageStyles";
 import Footer from "../footer/Footer";
+import Subscription from "../subscription/Subscription";
 
 const LandingPage = () => {
     return (
@@ -9,7 +10,9 @@ const LandingPage = () => {
             <HeaderContainer>
                 <Header/>
             </HeaderContainer>
-
+            <Subsription>
+                <Subscription/>
+            </Subsription>
             <FooterContainer>
                 <Footer/>
             </FooterContainer>

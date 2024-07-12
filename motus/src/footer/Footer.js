@@ -13,7 +13,6 @@ import {
     SimpText,
     FirstLine
 } from "./footerStyles";
-import {TextField} from "@mui/material";
 
 const Footer = () => {
     return (
