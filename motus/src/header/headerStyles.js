@@ -31,7 +31,7 @@ export const HeaderNavListItem = styled('li')`
 export const HeaderNavLink = styled('div')`
   font-family: serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 148.6%;
   color: #B3D420;
   cursor: pointer;
