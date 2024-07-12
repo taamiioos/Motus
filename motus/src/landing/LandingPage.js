@@ -5,7 +5,6 @@ import {
     HeaderContainer,
     FooterContainer,
     Logo,
-    Pic,
     TextBlock1,
     Pink,
     Par,
