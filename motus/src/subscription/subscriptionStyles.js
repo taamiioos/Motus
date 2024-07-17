@@ -15,7 +15,7 @@ export const Subscribe = styled.div`
     background: #f5f5f5;
     height: 14vh;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 30%;
     font-weight: bold;
 `;
 export const Newbie = styled.div`
