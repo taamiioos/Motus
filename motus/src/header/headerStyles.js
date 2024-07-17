@@ -2,7 +2,6 @@ import { styled } from '@mui/system';
 
 
 export const HeaderWrapper = styled("header")`
-    margin-top: 10px;
     padding: 25px 20px 30px 19px;
     grid-column: 4 / 6; 
     grid-row: 1/2;

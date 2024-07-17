@@ -6,22 +6,53 @@ import {
     FooterContainer,
     SubscriptionContainer,
     RegistrationContainer,
-    Logo, Pink3, Pic1, Pink, TextBlock1, Par, Pink2, TextBlock2, TextBlock3, TextBlock4, Pink4
+    Logo,
+    Pink3,
+    Pic1,
+    Pink,
+    TextBlock1,
+    Par,
+    Pink2,
+    TextBlock2,
+    TextBlock3,
+    TextBlock4,
+    Pink4,
+    BackgroundImage3,
+    Background,
+    BackgroundImage1,
+    BackgroundImage2,
+    PicStyle1,
+    Pic2,
+    Pic3,
+    Pink5,
+    TextBlock5,
+    Pink6,
+    TextBlock6,
+    Pink7,
+    TextBlock7
 } from "./landingPageStyles";
 import Footer from "../footer/Footer";
 import Subscription from "../subscription/Subscription";
 import Registration from "../registration/Registration";
-import {LogoPic} from "../footer/footerStyles";
-import BackgroundSVG from '../pictures/background1.svg';
+import P1 from "../pictures/P1.png";
+import g4 from "../pictures/Group 14.png";
+import girls from "../pictures/girls.png";
+import Motus from "../pictures/Мотус.png";
+
 
 const LandingPage = () => {
     return (
-        <Container style={{backgroundImage: `url(${BackgroundSVG})`}}>
+        <Container>
+            <Background>
+                <BackgroundImage1/>
+                <BackgroundImage2/>
+                <BackgroundImage3/>
+            </Background>
             <Logo>
-                <LogoPic src="path/to/logo.png" alt="ЛоготипФ"/>
+                <PicStyle1 src={Motus} alt="ЛоготипФ"/>
             </Logo>
             <Pic1>
-                <LogoPic src="path/to/logo.png" alt="Картиночка"/>
+                <PicStyle1 src={P1} alt="Картиночка"/>
 
             </Pic1>
             <Pink>
@@ -37,6 +68,14 @@ const LandingPage = () => {
                     О чем мы?
                 </TextBlock2>
             </Pink2>
+            <Pic2>
+                <PicStyle1 src={g4} alt="Картиночка"/>
+
+            </Pic2>
+            <Pic3>
+                <PicStyle1 src={girls} alt="Картиночка"/>
+
+            </Pic3>
             <Pink3>
                 <TextBlock3>
                     <Par>Площадка для саморазвития, образования</Par>
@@ -74,6 +113,21 @@ const LandingPage = () => {
 
                 </TextBlock4>
             </Pink4>
+            <Pink5>
+                <TextBlock5>
+                    <Par>Какие подкасты ты у нас найдешь?</Par>
+                </TextBlock5>
+            </Pink5>
+            <Pink6>
+                <TextBlock6>
+                    <Par>Образовательные курсы от университетов</Par>
+                </TextBlock6>
+            </Pink6>
+            <Pink7>
+                <TextBlock7>
+                    <Par>Курсы от топовых экспертов разных ниш</Par>
+                </TextBlock7>
+            </Pink7>
             <HeaderContainer>
                 <Header/>
             </HeaderContainer>
@@ -91,3 +145,5 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+
+
